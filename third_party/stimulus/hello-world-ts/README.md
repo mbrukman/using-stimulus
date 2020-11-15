@@ -10,7 +10,7 @@ compatible with the Webpack bundler.
 To build the app, run:
 
 ```sh
-$ bazel run //third_party/stimulus/hello-world-ts/devserver
+$ bazel run //third_party/stimulus/hello-world-ts:devserver
 ```
 
 or
