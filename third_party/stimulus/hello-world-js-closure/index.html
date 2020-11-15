@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Stimulus: hello world</title>
+    <script src="https://cdn.jsdelivr.net/npm/stimulus@1.1.1/dist/stimulus.umd.min.js"></script>
+    <script src="hello_controller.js"></script>
+  </head>
+  <body>
+    <div data-controller="hello">
+      <input data-target="hello.name" type="text">
+
+      <button data-action="click->hello#greet">
+        Greet
+      </button>
+
+      <span data-target="hello.output"></span>
+    </div>
+  </body>
+</html>

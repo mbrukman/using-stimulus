@@ -2,9 +2,14 @@
 
 How to build applications using [Stimulus.js][stimulus-js].
 
-Sample apps:
+Working sample apps:
 
+* ["Hello world" in JavaScript][stimulus-hello-world-js]
 * ["Hello world" in TypeScript with Bazel][stimulus-hello-world-ts]
+
+Works-in-progress (not working yet):
+
+* ["Hello world" in JavaScript with Bazel][stimulus-hello-world-js-closure]
 
 ## Contributing
 
@@ -21,4 +26,6 @@ and Google specifically disclaims all warranties as to its quality,
 merchantability, or fitness for a particular purpose.
 
 [stimulus-js]: https://stimulusjs.org/
+[stimulus-hello-world-js]: third_party/stimulus/hello-world-js
+[stimulus-hello-world-js-closure]: third_party/stimulus/hello-world-js-closure
 [stimulus-hello-world-ts]: third_party/stimulus/hello-world-ts
