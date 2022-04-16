@@ -17,9 +17,11 @@
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
 package(default_visibility = ["//visibility:public"])
 
-load("@npm//@bazel/typescript:index.bzl", "ts_devserver", "ts_library")
+load("@npm//@bazel/concatjs:index.bzl", "concatjs_devserver")
+load("@npm//@bazel/typescript:index.bzl", "ts_library")
 load("@npm//webpack-cli:index.bzl", "webpack_cli")
 
 ts_library(
@@ -59,7 +61,7 @@ webpack_cli(
     ],
 )
 
-ts_devserver(
+concatjs_devserver(
     name = "devserver",
     port = 5000,
     serving_path = "/bundle.js",
