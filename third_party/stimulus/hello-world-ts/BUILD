@@ -17,7 +17,6 @@
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
 package(default_visibility = ["//visibility:public"])
 
 load("@npm//@bazel/concatjs:index.bzl", "concatjs_devserver")
@@ -44,7 +43,7 @@ filegroup(
 
 webpack_cli(
     name = "bundle",
-    outs = ["bundle.js"],
+    outs = ["bundle"],
     args = [
         "$(locations :hello.js)",
         "--config",
