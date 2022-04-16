@@ -44,11 +44,11 @@ yarn_install(
 
 http_archive(
     name = "io_bazel_rules_closure",
-    sha256 = "d66deed38a0bb20581c15664f0ab62270af5940786855c7adc3087b27168b529",
-    strip_prefix = "rules_closure-0.11.0",
+    sha256 = "9498e57368efb82b985db1ed426a767cbf1ba0398fd7aed632fc3908654e1b1e",
+    strip_prefix = "rules_closure-0.12.0",
     urls = [
-        "https://mirror.bazel.build/github.com/bazelbuild/rules_closure/archive/0.11.0.tar.gz",
-        "https://github.com/bazelbuild/rules_closure/archive/0.11.0.tar.gz",
+        "https://mirror.bazel.build/github.com/bazelbuild/rules_closure/archive/0.12.0.tar.gz",
+        "https://github.com/bazelbuild/rules_closure/archive/0.12.0.tar.gz",
     ],
 )
 
