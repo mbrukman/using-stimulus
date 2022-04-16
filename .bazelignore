@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Temporary editor files
+*~
+*.sw?
+
 bazel-*
 node_modules
 yarn-error.log

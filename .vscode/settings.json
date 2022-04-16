@@ -1,5 +1,9 @@
 {
     "files.exclude": {
-        "bazel-*/": true
+        "**/*~": true,
+        "**/*.sw?": true,
+        "bazel-*/": true,
+        "node_modules/": true,
+        "yarn-error.log": true
     }
 }
