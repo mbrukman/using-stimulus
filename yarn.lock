@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@bazel/bazelisk/-/bazelisk-1.11.0.tgz#f98d8438b4c14e3328126618b96775d271caa5f8"
   integrity sha512-lxiQzVqSGDG0PIDQGJdVDjp7T+50p5NnM4EnRJa76mkZp6u5ul19GJNKhPKi81TZQALZEZDxAgxVqQKkWTUOxA==
 
-"@bazel/concatjs@^3.0.0":
+"@bazel/concatjs@^3.8.0":
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/@bazel/concatjs/-/concatjs-3.8.0.tgz#a6b2483f7799c58652fbe5347ab2b3063a1ae6ad"
   integrity sha512-Qi/Glf407LKz7wC3VAGwtm+Sjr/b+RLv7ESdlMekOlzMCK83OWA0aNhKtbSKZ36hJ/ToDgEWtjus7o6svsJECQ==
@@ -21,7 +21,7 @@
   resolved "https://registry.yarnpkg.com/@bazel/ibazel/-/ibazel-0.16.2.tgz#05dd7f06659759fda30f87b15534f1e42f1201bb"
   integrity sha512-KgqAWMH0emL6f3xH6nqyTryoBMqlJ627LBIe9PT1PRRQPz2FtHib3FIHJPukp1slzF3hJYZvdiVwgPnHbaSOOA==
 
-"@bazel/typescript@^3.0.0":
+"@bazel/typescript@^3.8.0":
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-3.8.0.tgz#725d51a1c25e314a1d8cddb8b880ac05ba97acd4"
   integrity sha512-4C1pLe4V7aidWqcPsWNqXFS7uHAB1nH5SUKG5uWoVv4JT9XhkNSvzzQIycMwXs2tZeCylX4KYNeNvfKrmkyFlw==
