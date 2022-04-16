@@ -14,4 +14,18 @@
 
 module.exports = (env, argv) => ({
   mode: argv.mode,
+  resolve: {
+    // Added when upgrading webpack-cli to 4.9.2 to work around this error:
+    //
+    //     Module not found: Error: Can't resolve 'bazel-out/k8-fastbuild/bin/third_party/stimulus/hello-world-ts/hello.mjs' [...]
+    //     Did you mean './bazel-out/k8-fastbuild/bin/third_party/stimulus/hello-world-ts/hello.mjs'?
+    //     Requests that should resolve in the current directory need to start with './'.
+    //     Requests that start with a name are treated as module requests and resolve within module directories (node_modules).
+    //     If changing the source code is not an option there is also a resolve
+    //     options called 'preferRelative' which tries to resolve these kind of
+    //     requests in the current directory too.
+    //
+    // Docs: https://webpack.js.org/configuration/resolve/#resolvepreferrelative
+    preferRelative: true,
+  },
 });
