@@ -41,5 +41,14 @@ jobs:
           path: "~/.cache/bazel"
           key: bazel
 
-      - name: Build
+      - name: Setup Node and Yarn (with caching)
+        uses: actions/setup-node@v3
+        with:
+          node-version: '12'
+          cache: 'yarn'
+
+      - name: Install NPM dependencies via Yarn
+        run: yarn install
+
+      - name: Build "Hello World" TS with Bazel
         run: bazel build //third_party/stimulus/hello-world-ts:all
