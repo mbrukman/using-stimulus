@@ -20,7 +20,7 @@ Stimulus.ControllerConstructor = class {
    * @returns {!Stimulus.Controller}
    */
   new(context) { }
-}
+};
 
 /**
  * @implements {Stimulus.ControllerConstructor}
