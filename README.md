@@ -1,8 +1,8 @@
-# Using Stimulus.js
+# Using Stimulus
 
 [![Build Status][github-ci-badge]][github-ci-url]
 
-How to build applications using [Stimulus.js][stimulus-js].
+How to build applications using [Stimulus][stimulus].
 
 Working sample apps:
 
@@ -29,7 +29,7 @@ merchantability, or fitness for a particular purpose.
 
 [github-ci-badge]: https://github.com/mbrukman/using-stimulusjs/actions/workflows/main.yml/badge.svg
 [github-ci-url]: https://github.com/mbrukman/using-stimulusjs/actions/workflows/main.yml
-[stimulus-js]: https://stimulusjs.org/
+[stimulus]: https://stimulus.hotwired.dev/
 [stimulus-hello-world-js]: third_party/stimulus/hello-world-js
 [stimulus-hello-world-js-closure]: third_party/stimulus/hello-world-js-closure
 [stimulus-hello-world-ts]: third_party/stimulus/hello-world-ts
