@@ -46,7 +46,9 @@ Stimulus.Application = class {
 
   /**
    * @param {!string} identifier
-   * @param {Function} controllerConstructor Technically, this should be `Stimulus.ControllerConstructor` but that doesn't work, and neither does `function(!Stimulus.Context): !Stimulus.Controller`.
+   * @param {Function} controllerConstructor Technically, this should be
+   *     `Stimulus.ControllerConstructor` but that doesn't work, and neither
+   *     does `function(!Stimulus.Context): !Stimulus.Controller`.
    */
   register(identifier, controllerConstructor) {  }
 
