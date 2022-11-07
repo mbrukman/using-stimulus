@@ -58,7 +58,7 @@ jobs:
       - name: Setup Node and Yarn (with caching)
         uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '16'
           cache: 'yarn'
 
       - name: Install NPM dependencies via Yarn
