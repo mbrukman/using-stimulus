@@ -1,6 +1,9 @@
 # Using Stimulus
 
-[![Build Status][github-ci-badge]][github-ci-url]
+[![Using Stimulus build Status][using-stimulus-ci-badge]][using-stimulus-ci-url]
+
+[using-stimulus-ci-badge]: https://github.com/mbrukman/using-stimulus/actions/workflows/main.yml/badge.svg?query=branch%3Amain
+[using-stimulus-ci-url]: https://github.com/mbrukman/using-stimulus/actions/workflows/main.yml?query=branch%3Amain
 
 How to build applications using [Stimulus][stimulus].
 
@@ -27,8 +30,6 @@ This project is not an official Google project. It is not supported by Google
 and Google specifically disclaims all warranties as to its quality,
 merchantability, or fitness for a particular purpose.
 
-[github-ci-badge]: https://github.com/mbrukman/using-stimulusjs/actions/workflows/main.yml/badge.svg
-[github-ci-url]: https://github.com/mbrukman/using-stimulusjs/actions/workflows/main.yml
 [stimulus]: https://stimulus.hotwired.dev/
 [stimulus-hello-world-js]: third_party/stimulus/hello-world-js
 [stimulus-hello-world-js-closure]: third_party/stimulus/hello-world-js-closure
