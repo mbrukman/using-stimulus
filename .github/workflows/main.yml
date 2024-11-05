@@ -36,7 +36,7 @@ jobs:
       fail-fast: false
       matrix:
         bazel: [ '6.0.0' ]
-        os: [ 'ubuntu-24.04', 'ubuntu-22.04', 'macos-13', 'macos-12' ]
+        os: [ 'ubuntu-24.04', 'ubuntu-22.04', 'macos-14', 'macos-13' ]
     env:
       USE_BAZEL_VERSION: '${{ matrix.bazel }}'
 
@@ -56,7 +56,7 @@ jobs:
           repository-cache: true
 
       - name: Setup Node and Yarn (with caching)
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '14'
           cache: 'yarn'
